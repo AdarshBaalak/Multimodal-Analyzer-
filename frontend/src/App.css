@@ -1,0 +1,23 @@
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  background-color: #0f172a; /* full-page background */
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* top alignment */
+}
+
+
+.AppContainer {
+  height: 100%;
+  width: 100%;
+  max-width: 600px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
